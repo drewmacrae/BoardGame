@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 74xx)(type Legacy)(uri ${KIPRJMOD}/74xx.lib)(options "")(descr ""))
+  (lib (name BoardGame-cache)(type Legacy)(uri ${KIPRJMOD}/BoardGame-cache.lib)(options "")(descr ""))
+  (lib (name vp3203n3-g)(type Legacy)(uri ${KIPRJMOD}/vp3203n3-g.lib)(options "")(descr ""))
+  (lib (name tlc5916)(type Legacy)(uri ${KIPRJMOD}/tlc5916.lib)(options "")(descr ""))
+  (lib (name sw_push_11_22)(type Legacy)(uri ${KIPRJMOD}/sw_push_11_22.lib)(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLC5916
+D 8-Channel LED Driver Grayscale PWM Control, DIP package
+K PWM LED driver
+F http://www.ti.com/lit/ds/symlink/tlc5916.pdf
+$ENDCMP
+#
+#End Doc Library
