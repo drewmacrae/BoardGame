@@ -35,11 +35,29 @@ Let's make an online frontend so someone can play games without the hardware, an
 
 ## One version in PTH
 
+If these things are all surface mount (SMT) rather than through hole (PTH) assembly will be another thing that someone will need to plan for and manage. I'd rather start with a PTH version and be able to send kits to interested parties easily especially starting off. Soldering is fun and a kit is a nice way to organize simple projects like this for sharing.
+
 ## One version without WIFI
+
+We want itto work for users without WIFI access. This might be hard/annoying/expensive, but having an SPI driver that can control this board and call in moves through an alternate network is interesting.
 
 ## One version with clicky buttons
 
-## Authors
+# Design
+
+## Server
+
+## Web Client
+
+## Current control
+
+Cheap display LEDs have variable voltage drops which leads to variation in brightness if LEDs are powered with similar voltages. I prefer current control when available and this is often available in row drivers.
+
+## LED matrix vs individual control
+
+World Semi and a few other companies make LEDs that can be well controlled in very long strings. These require each string be driven in a timing critical manner for each frame update. I prefer to use drivers that let me leverage serial peripherals, even if the update rate is accelerated (the peripheral lets us do so in a way that's more convenient in the hardware.)
+
+# Authors
 
 * **Andrew Macrae** - *Initial work* 
 * **Ryan Menefee** - *Concept and review*
